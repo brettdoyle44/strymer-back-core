@@ -1,0 +1,25 @@
+
+node_modules
+node_modules/
+mock.js
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+controlyourclock-cc301cd27cff.json
+.env
+env
+database.rules.json
+firebase.json
+firestore.indexes.json
+firestore.rules
+storage.rules
+
+controlyourclock-2edd1-firebase-adminsdk-312d6-f3fcf33fd7.json
+controlyourclock-5b25e9c8b5b7.json
+test-send.js
+.vscode
+savedStream.mp4
+./savedStream.mp4

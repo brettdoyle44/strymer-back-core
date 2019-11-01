@@ -1,0 +1,52 @@
+[TAILING] Tailing last 15 lines for [all] processes (change the value with --lines option)
+/root/.pm2/pm2.log last 15 lines:
+PM2        | [2018-10-09T19:30:58.691Z] PM2 log: Stopping app:yarn id:0
+PM2        | [2018-10-09T19:30:58.717Z] PM2 log: App [yarn] with id [0] and pid [10516], exited with code [0] via signal [SIGINT]
+PM2        | [2018-10-09T19:30:58.807Z] PM2 log: pid=10516 msg=process killed
+PM2        | [2018-10-09T19:30:58.808Z] PM2 log: Starting execution sequence in -fork mode- for app name:yarn id:0
+PM2        | [2018-10-09T19:30:58.812Z] PM2 log: App name:yarn id:0 online
+PM2        | [2018-10-09T19:32:29.219Z] PM2 log: Stopping app:yarn id:0
+PM2        | [2018-10-09T19:32:29.250Z] PM2 log: App [yarn] with id [0] and pid [10562], exited with code [0] via signal [SIGINT]
+PM2        | [2018-10-09T19:32:29.342Z] PM2 log: pid=10562 msg=process killed
+PM2        | [2018-10-09T19:32:29.342Z] PM2 log: Starting execution sequence in -fork mode- for app name:yarn id:0
+PM2        | [2018-10-09T19:32:29.346Z] PM2 log: App name:yarn id:0 online
+PM2        | [2018-10-12T06:21:50.749Z] PM2 log: Stopping app:yarn id:0
+PM2        | [2018-10-12T06:21:50.774Z] PM2 log: App [yarn] with id [0] and pid [10639], exited with code [0] via signal [SIGINT]
+PM2        | [2018-10-12T06:21:50.866Z] PM2 log: pid=10639 msg=process killed
+PM2        | [2018-10-12T06:21:50.867Z] PM2 log: Starting execution sequence in -fork mode- for app name:yarn id:0
+PM2        | [2018-10-12T06:21:50.872Z] PM2 log: App name:yarn id:0 online
+
+/root/.pm2/logs/yarn-error.log last 15 lines:
+0|yarn     |       var _id = response.channels[0]._id;
+0|yarn     |                          ^
+0|yarn     | 
+0|yarn     | TypeError: Cannot read property 'channels' of undefined
+0|yarn     |     at channels (/root/strymer-back/index.js:76:34)
+0|yarn     |     at Request.request [as _callback] (/root/strymer-back/node_modules/twitch-api-v5/lib/request.js:42:13)
+0|yarn     |     at Request.self.callback (/root/strymer-back/node_modules/request/request.js:185:22)
+0|yarn     |     at emitTwo (events.js:126:13)
+0|yarn     |     at Request.emit (events.js:214:7)
+0|yarn     |     at Request.<anonymous> (/root/strymer-back/node_modules/request/request.js:1161:10)
+0|yarn     |     at emitOne (events.js:116:13)
+0|yarn     |     at Request.emit (events.js:211:7)
+0|yarn     |     at IncomingMessage.<anonymous> (/root/strymer-back/node_modules/request/request.js:1083:12)
+0|yarn     |     at Object.onceWrapper (events.js:313:30)
+0|yarn     | error Command failed with exit code 1.
+
+/root/.pm2/logs/yarn-out.log last 15 lines:
+0|yarn     | VVVVV rainbow6
+0|yarn     | VVVVV riotgames
+0|yarn     | VVVVV riotgamesbrazil
+0|yarn     | VVVVV riotgamesjp
+0|yarn     | VVVVV rocketleague
+0|yarn     | VVVVV rtparenacsgo
+0|yarn     | VVVVV starcraft
+0|yarn     | VVVVV starladder1
+0|yarn     | VVVVV starladder2
+0|yarn     | VVVVV starladder3
+0|yarn     | VVVVV starladder4
+0|yarn     | VVVVV starladder5
+0|yarn     | VVVVV starladder_cs_en
+0|yarn     | VVVVV taketv
+0|yarn     | VVVVV warcraft
+
