@@ -11,6 +11,8 @@ const TWITCH_SECRET = process.env.TWITCH_SECRET
 const SESSION_SECRET = process.env.SESSION_SECRET
 const CALLBACK_URL = process.env.CALLBACK_URL
 
+console.log(TWITCH_CLIENT_ID)
+
 export const twitchAuth = express()
 twitchAuth.use(
   session({ secret: SESSION_SECRET, resave: false, saveUninitialized: false })

@@ -7,7 +7,7 @@ import { twitchAuth } from './auth'
 
 const fs = require('fs')
 // TWITCH APIS/IDS
-const api = require('twitch-api-v5')
+// const api = require('twitch-api-v5')
 const axios = require('axios')
 const ffmpeg = require('fluent-ffmpeg')
 const fetch = require('node-fetch')
@@ -72,8 +72,6 @@ app
   })
 
   .get('/api/meta', (req, res) => {
-    api.clientID = clientID
-
     const streamInfo = theIDs.map(id =>
       axios
         .get(`https://api.twitch.tv/helix/streams/${id}`, {
@@ -150,4 +148,4 @@ app
     res.json(top)
   })
 
-  .listen(process.env.PORT || 4321, () => console.log('Server up!'))
+  .listen(process.env.PORT || 5000, () => console.log('Server up!'))
