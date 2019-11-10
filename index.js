@@ -20,7 +20,8 @@ const app = express()
 const corsOptions = [
   'http://localhost:1234',
   'https://strymer.gg',
-  'https://www.strymer.gg'
+  'https://www.strymer.gg',
+  'http://localhost:80'
 ]
 
 app
