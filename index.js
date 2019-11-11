@@ -76,7 +76,7 @@ app
   .get('/api/meta', (req, res) => {
     const streamInfo = theIDs.map(id =>
       axios
-        .get(`https://api.twitch.tv/helix/streams/${id}`, {
+        .get(`https://api.twitch.tv/helix/streams?user_id=${id}`, {
           headers: {
             'Client-ID': clientID
           }
