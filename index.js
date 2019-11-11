@@ -21,7 +21,8 @@ const corsOptions = [
   'http://localhost:1234',
   'https://strymer.gg',
   'https://www.strymer.gg',
-  'http://localhost:80'
+  'https://localhost:80',
+  'https://localhost:1234'
 ]
 
 app
